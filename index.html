@@ -1,6 +1,24 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+
+  <style>
+    .imagen-hover {
+      width: 400px;   /* ancho inicial */
+      height: 250px;  /* alto inicial */
+      object-fit: cover; /* mantiene proporción */
+      transition: all 0.3s ease; /* suaviza el efecto */
+    }
+
+    .imagen-hover:hover {
+      width: auto;   /* vuelve al tamaño original */
+      height: auto;  /* vuelve al tamaño original */
+      transform: scale(1.2); /* opcional: ligera expansión */
+    }
+  </style>
+
+
+  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portafolio Profesional - Carlos</title>
